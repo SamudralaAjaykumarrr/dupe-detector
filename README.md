@@ -1,2 +1,18 @@
-# dupe-detector
-This Python-based utility scans a specified directory and all its subdirectories to identify duplicate files by comparing their content hashes (SHA-256). It helps users clean up disk space by listing or optionally deleting redundant copies of files. The tool is easy to use via command line and is efficient even for large file systems.
+# REST API Testing with Postman
+
+This project demonstrates REST API testing using Postman with a public API.
+
+## API Used
+- JSONPlaceholder: https://jsonplaceholder.typicode.com/
+
+## Tested Endpoints
+- GET /posts
+- GET /posts/1
+- POST /posts
+- PUT /posts/1
+- DELETE /posts/1
+
+## How to Use
+1. Import `postman_collection.json` into Postman.
+2. Run each request and check the response.
+3. Modify or add new requests as needed.
